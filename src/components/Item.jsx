@@ -15,6 +15,7 @@ const Item = (item) => (
                         <p>Cases: {item.cases}</p>
                         <p>Recovered: {item.recovered}</p>
                     </div>
+                    <p className="verMas">Ver mas ></p>
                 </section>
             </div>
         </Link>

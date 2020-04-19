@@ -1,4 +1,8 @@
 @media only screen and (max-width: 600px) {
+	.container {
+		width: 90%;
+	}
+
 	.content {
         grid-template-columns: repeat(1, 1fr);
 	}
@@ -7,5 +11,10 @@
 		grid-template-columns: 1fr;
 		grid-gap: 0;
 		grid-row-gap: 0;
+	}
+
+	.info{
+		flex-direction: column;
+		font-size: 10px;
 	}
 }
