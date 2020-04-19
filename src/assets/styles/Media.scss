@@ -1,0 +1,11 @@
+@media only screen and (max-width: 600px) {
+	.content {
+        grid-template-columns: repeat(1, 1fr);
+	}
+
+	.country-inner {
+		grid-template-columns: 1fr;
+		grid-gap: 0;
+		grid-row-gap: 0;
+	}
+}

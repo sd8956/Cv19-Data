@@ -1,0 +1,43 @@
+.country-inner {
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1.5rem;
+    grid-row-gap: 1.5em;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: grid;
+}
+
+.country-card {
+    text-decoration: none;
+    box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+    border-radius: 5px;
+    margin: 0 0 20px 0;
+    display: block;
+    animation-duration: 2s;
+    animation-name: fade;
+}
+
+.country-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.country-card h2 {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.country-card h3 {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    margin: 20px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+}

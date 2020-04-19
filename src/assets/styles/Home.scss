@@ -1,0 +1,56 @@
+@import "./Vars.scss";
+@import "./Media.scss";
+
+body {
+    margin: 0;
+    font-family: $theme-font;
+    background: $main-color;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.input {
+    background-color: rgba(255,255,255,0.1);
+    border: 1px solid black;
+    border-radius: 25px;
+    color: black;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    height: 50px;
+    margin-bottom: 30px;
+    outline: none;
+    padding: 0px 20px;
+    width: 70%;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content{
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    grid-row-gap: 1.5em;
+    display: grid;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
