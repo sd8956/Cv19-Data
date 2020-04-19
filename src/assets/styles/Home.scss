@@ -1,5 +1,4 @@
 @import "./Vars.scss";
-@import "./Media.scss";
 
 body {
     margin: 0;
@@ -54,3 +53,5 @@ a{
     color: black;
     text-decoration: none;
 }
+
+@import "./Media.scss";
