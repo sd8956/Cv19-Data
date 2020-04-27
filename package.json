@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --open --mode development",
+    "start": "webpack-dev-server --open --mode development --hot --inline --content-base=dist --history-api-fallback",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [
